@@ -81,7 +81,7 @@ public class TestGroupRepository {
             groupRepository.save(group);
 
             ObjectMapper objectMapper = new ObjectMapper();
-            String jsonString = objectMapper.writeValueAsString(group);
+            String jsonString = objectMapper.writeValueAsString(group.getListUser());
             System.out.println(jsonString);
 
 //            chUserGroupRepository.save(chUserGroup);
