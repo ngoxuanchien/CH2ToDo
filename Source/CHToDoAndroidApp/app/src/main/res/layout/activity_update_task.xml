@@ -5,18 +5,15 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
-        android:background="@drawable/main_bg_img"
-        tools:context=".SignInActivity">
-
-
-
+        android:padding="20dp"
+        android:background="@drawable/alt_bg_img"
+        tools:context=".UpdateTaskActivity">
 
     <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign In"
+            android:text="Updating task"
             android:textColor="@color/black"
             android:textSize="40sp"
             android:fontFamily="casual"
@@ -28,37 +25,39 @@
             android:layout_marginTop="200sp"/>
 
     <LinearLayout
+            android:id="@+id/details_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:layout_editor_absoluteX="10dp"
-            android:id="@+id/linearLayout">
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <EditText
-                android:id="@+id/email"
-                android:layout_height="55dp"
+                android:id="@+id/title"
+                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:padding="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/input_text_field_styling"
-                android:hint="Email"/>
+                android:hint="@string/title" android:minHeight="48dp"/>
 
         <EditText
-                android:id="@+id/password"
+                android:id="@+id/description"
+                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_marginTop="7dp"
-                android:paddingLeft="10dp"
-                android:inputType="textPassword"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/input_text_field_styling"
-                android:hint="Password"/>
+                android:lines="7"
+                android:gravity="top"
+                android:hint="@string/description"/>
 
         <Button
-                android:id="@+id/sign_in_btn"
+                android:id="@+id/update_task"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Log in"
+                android:text="Update"
                 android:textSize="20sp"
                 android:padding="10dp"
                 android:layout_marginTop="20dp"
@@ -67,22 +66,13 @@
                 android:textFontWeight="700"
                 android:textColor="@color/white"/>
 
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="@string/go_to_sign_up"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:onClick="gotoSignUpAct" android:minHeight="48dp"/>
-
     </LinearLayout>
 
     <Button
-            android:text="Back to home"
+            android:text="Back"
+            android:onClick="goToTaskAct"
             android:padding="10dp"
             android:textSize="12sp"
-            android:onClick="goToHome"
             android:background="@drawable/alt2_btn_styling"
             android:textColor="@color/white"
             android:layout_width="120dp"
@@ -90,8 +80,8 @@
             android:fontFamily="monospace"
             android:id="@+id/button"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/details_layout"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

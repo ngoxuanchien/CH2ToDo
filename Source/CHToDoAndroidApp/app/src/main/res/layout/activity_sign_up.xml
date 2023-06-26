@@ -109,7 +109,7 @@
                 android:padding="10dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="monospace"
-                android:background="@drawable/alt_btn_styling"
+                android:background="@drawable/main_btn_styling"
                 android:textFontWeight="700"
                 android:textColor="@color/white"
                 />
@@ -120,7 +120,7 @@
                 android:text="@string/go_to_sign_in"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:onClick="goToSignInAct"/>
+                android:onClick="goToSignInAct" android:minHeight="48dp"/>
 
     </LinearLayout>
 
@@ -129,7 +129,7 @@
             android:padding="10dp"
             android:textSize="12sp"
             android:onClick="goToHome"
-            android:background="@drawable/alt_btn_styling"
+            android:background="@drawable/alt2_btn_styling"
             android:textColor="@color/white"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
