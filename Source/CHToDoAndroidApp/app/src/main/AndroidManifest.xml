@@ -12,6 +12,12 @@
             android:theme="@style/Theme.CHToDoAndroidApp"
             tools:targetApi="31">
         <activity
+                android:name=".ProfileActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".TasksActivity"
+                android:exported="false"/>
+        <activity
                 android:name=".DeleteTaskActivity"
                 android:exported="false"/>
         <activity
