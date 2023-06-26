@@ -1,8 +1,8 @@
-package com.example.chtodo.model;
+package com.example.chtodo.model.database;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.Accessors;
@@ -30,12 +30,26 @@ public class CHGroup {
     private String name;
 
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "owner_id")
     @JsonIgnore
     private CHUser owner;
 
     @ManyToMany(mappedBy = "groupList", fetch = FetchType.EAGER)
     @Builder.Default
-    @JsonIgnore
     private List<CHUser> listUser = new ArrayList<>();
+
+    @OneToMany
+    @JoinColumn(name = "group_id")
+    @JsonIgnore
+    private List<Task> listTask = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            return objectMapper.writeValueAsString(this);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

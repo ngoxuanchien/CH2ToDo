@@ -1,22 +1,31 @@
 package com.example.chtodo.controller;
 
-import com.example.chtodo.model.CHUser;
+import com.example.chtodo.model.auth.AuthenticationRequest;
+import com.example.chtodo.model.auth.AuthenticationResponse;
+import com.example.chtodo.model.auth.RegisterRequest;
 import com.example.chtodo.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/app/auth")
+@RequestMapping("/api/auth")
 @RequiredArgsConstructor
 public class AuthenticationController {
     private final AuthenticationService authenticationService;
 
-    @GetMapping("/register")
-    public String registerUser(@RequestBody CHUser newUser) {
-        return authenticationService.register(newUser);
+    @PostMapping("/register")
+    public ResponseEntity<AuthenticationResponse> registerUser(
+            @RequestBody RegisterRequest registerRequest
+    ) {
+        return ResponseEntity.ok(authenticationService.register(registerRequest));
+    }
+
+    @PostMapping("/authenticate")
+    public ResponseEntity<AuthenticationResponse> authenticate(
+            @RequestBody AuthenticationRequest request
+            ) {
+        return ResponseEntity.ok(authenticationService.authenticate(request));
     }
 
 }

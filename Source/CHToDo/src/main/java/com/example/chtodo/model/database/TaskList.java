@@ -1,6 +1,8 @@
-package com.example.chtodo.model;
+package com.example.chtodo.model.database;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -9,7 +11,7 @@ import java.util.List;
 
 @Data
 @Entity
-@Table
+@Table(name = "task_list")
 @Getter
 @Setter
 @Builder
@@ -25,17 +27,26 @@ public class TaskList {
     private String name;
 
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "user_id", nullable = false)
     @JsonIgnore
     private CHUser user;
 
     @OneToMany
-    @JoinTable(name = "Task")
+    @JoinColumn(name = "task_list_id")
     @JsonIgnore
     private List<Task> listTask = new ArrayList<>();
 
     @ManyToOne
-    @JoinColumn
-    @JsonIgnore
+    @JoinColumn(name = "group_id")
     private CHGroup group;
+
+    @Override
+    public String toString() {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            return objectMapper.writeValueAsString(this);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

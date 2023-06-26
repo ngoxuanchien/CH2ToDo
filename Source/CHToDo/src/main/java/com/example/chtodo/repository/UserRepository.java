@@ -1,6 +1,6 @@
 package com.example.chtodo.repository;
 
-import com.example.chtodo.model.CHUser;
+import com.example.chtodo.model.database.CHUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

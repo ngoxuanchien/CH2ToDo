@@ -1,4 +1,3 @@
-FROM ubuntu:latest
-LABEL authors="ngoxu"
-
-ENTRYPOINT ["top", "-b"]
+FROM openjdk:20-jdk
+COPY /docker-spring-boot.jar docker-spring-boot.jar
+ENTRYPOINT ["java", "-jar", "/docker-spring-boot.jar"]

@@ -1,2 +1,6 @@
-package com.example.chtodo.model.database;public enum Role {
+package com.example.chtodo.model.database;
+
+public enum Role {
+    USER,
+    ADMIN
 }

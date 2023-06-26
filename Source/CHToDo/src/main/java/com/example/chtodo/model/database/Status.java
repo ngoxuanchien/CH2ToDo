@@ -1,4 +1,4 @@
-package com.example.chtodo.model;
+package com.example.chtodo.model.database;
 
 import lombok.Data;
 
