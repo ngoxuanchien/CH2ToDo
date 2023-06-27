@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f619bbc1-e366-4c1e-9923-93cbbf244c04" name="Changes" comment="git deploy">
+      <change beforePath="$PROJECT_DIR$/../../Report/6-ThietKeKienTruc.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Report/6-ThietKeKienTruc.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Report/7-ThietKeGiaoDien.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Report/7-ThietKeGiaoDien.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Report/8-KetQuaThucHien.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Report/8-KetQuaThucHien.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Dockerfile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RgEd3soT6lcbil7uB1Pdredohq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ngoxu/OneDrive - VNU-HCMUS/HCMUS/Term6/ThietKePhanMem/CK/CH2ToDo/Source/CHToDo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "spring.configuration.checksum": "b84f8b91c108609093f936e864efab52",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.chtodo.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ngoxu\OneDrive - VNU-HCMUS\HCMUS\Term6\ThietKePhanMem\CK\CH2ToDo\Source\CHToDo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.chtodo.repository" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ChToDoApplication">
+    <configuration name="TestGroupRepository.testAddGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.chtodo.model.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.chtodo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.chtodo.repository.TestGroupRepository" />
+      <option name="METHOD_NAME" value="testAddGroup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGroupRepository.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.chtodo.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.chtodo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.chtodo.repository.TestGroupRepository" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserRepository.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.chtodo.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.chtodo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.chtodo.repository.TestUserRepository" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserRepository.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.chtodo.model.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.chtodo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.chtodo.repository.TestUserRepository" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserRepository.testAddUser2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CHToDo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.chtodo.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.chtodo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.chtodo.repository.TestUserRepository" />
+      <option name="METHOD_NAME" value="testAddUser2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChToDoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CHToDo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.chtodo.ChToDoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestGroupRepository.testAddUser" />
+        <item itemvalue="JUnit.TestGroupRepository.testAddGroup" />
+        <item itemvalue="JUnit.TestUserRepository.testAddUser2" />
+        <item itemvalue="JUnit.TestUserRepository.testAddUser" />
+        <item itemvalue="JUnit.TestUserRepository.getUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f619bbc1-e366-4c1e-9923-93cbbf244c04" name="Changes" comment="" />
+      <created>1687663409728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687663409728</updated>
+      <workItem from="1687663410764" duration="19795000" />
+      <workItem from="1687738569625" duration="2552000" />
+      <workItem from="1687779326801" duration="299000" />
+      <workItem from="1687779646152" duration="12851000" />
+      <workItem from="1687793982271" duration="8240000" />
+      <workItem from="1687802460871" duration="1826000" />
+      <workItem from="1687821639070" duration="439000" />
+      <workItem from="1687822105923" duration="2008000" />
+      <workItem from="1687826790114" duration="936000" />
+      <workItem from="1687865028376" duration="609000" />
+    </task>
+    <task id="LOCAL-00001" summary="git deploy">
+      <option name="closed" value="true" />
+      <created>1687803294121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687803294121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="git deploy">
+      <option name="closed" value="true" />
+      <created>1687803345701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687803345701</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git deploy">
+      <option name="closed" value="true" />
+      <created>1687824452371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687824452371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="git deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="git deploy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
