@@ -1,4 +1,0 @@
-- Tải và cài đặt mariadb, setup username = root, password = root và tạo database chtodo bằng lệnh: "create database chtoto"
-- Nếu đã có username/password thì chỉnh sửa username, password trong application.properties
-- Run spring boot project
-- Run java android project và sử dụng các chức năng bình thường
