@@ -2,13 +2,11 @@ package com.todolist_app.todolistapp.model.Entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.extern.apachecommons.CommonsLog;
 
 @Entity
+@Getter
 @Data
 @Table(name = "tasks")
 @NoArgsConstructor
