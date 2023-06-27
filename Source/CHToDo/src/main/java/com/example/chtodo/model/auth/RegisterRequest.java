@@ -13,7 +13,8 @@ import java.sql.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RegisterRequest {
-    private String fullname;
+    private String firstName;
+    private String lastName;
     private String email;
     private String password;
     private Date birthday;

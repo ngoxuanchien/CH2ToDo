@@ -30,7 +30,10 @@ public class CHUser implements UserDetails {
     private Integer id;
 
     @Column(nullable = false)
-    private String fullname;
+    private String firstName;
+
+    @Column(nullable = false)
+    private String lastName;
 
     @Column
     private Date birthday;

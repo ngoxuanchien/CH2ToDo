@@ -38,10 +38,10 @@ public class Task {
     private String description;
 
     @Column(nullable = false)
-    private Date createdDate;
+    private long createdDate;
 
     @Column
-    private Date expirationDate;
+    private long expirationDate;
 
     @ManyToOne
     @JoinColumn(name = "group_id")

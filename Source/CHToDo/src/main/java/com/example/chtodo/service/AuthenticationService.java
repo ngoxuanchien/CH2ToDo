@@ -37,7 +37,8 @@ public class AuthenticationService {
                     .build();
         } catch (NoSuchElementException e) {
             CHUser chUser = CHUser.builder()
-                    .fullname(registerRequest.getFullname())
+                    .firstName(registerRequest.getFirstName())
+                    .lastName(registerRequest.getLastName())
                     .birthday(registerRequest.getBirthday())
                     .address(registerRequest.getAddress())
                     .mobilePhone(registerRequest.getMobilePhone())
