@@ -10,6 +10,6 @@ public class StringHelper {
         return false;
     }
 
-    public static final String url = "http://192.168.81.1:8888";
+    public static final String url = "http://192.168.1.8:8080";
 
 }
